@@ -31,7 +31,6 @@
         @include('inc.panel')
     </div>
     @include('inc.stats')
-    @include('inc.review')
     <script src="./js/api.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key={{ Config::get('googleapikey.GoogleAPIKey') }}&libraries=places&callback=initMap"
         async defer></script>
